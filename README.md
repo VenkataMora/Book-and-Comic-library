@@ -14,4 +14,4 @@ This project is a collection of movie and books information. It provides users w
 - APIs: TMDB API, Open Library API
 
 ## License
-The content of this repository is licensed under an MIT License. Please review the [licence](LICENSE) before using or contributing to this project.
+The content of this repository is licensed under an MIT License. Please review the [license](LICENSE) before using or contributing to this project.
