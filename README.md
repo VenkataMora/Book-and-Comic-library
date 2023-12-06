@@ -9,9 +9,9 @@ Favorites: Users can mark movies or books as favorites, allowing them to quickly
 Recommendations: The application provides personalized recommendations based on the user's search history and favorite movies or books. This feature enhances user experience by suggesting relevant content.
 
 ## Technologies Used
-Front-End: HTML, CSS, JavaScript
-Framework: Bootstrap
-APIs: TMDB API, Open Library API
+- Front-End: HTML, CSS, JavaScript
+- Framework: Bootstrap
+- APIs: TMDB API, Open Library API
 
 ## License
 The content of this repository is licensed under an [MIT License](https://choosealicense.com/licenses/mit/). Please review the license before using or contributing to this project.
