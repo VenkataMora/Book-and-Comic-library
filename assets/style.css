@@ -3,26 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.footer{
-    background-color: #24262b;
-    padding: 70px;
-}
-
- .footer ul{
-    list-style: none;
-    padding-left: 0px;
-}
-.footer h4{
-    font-size: 18px;
-    color: #ffffff;
-}
-.footer a{
+a{
     text-decoration: none;
     color: #ffffff;
     font-weight: 300;
-    display: block;
-}
-.divider{
-    background-color: #ffffff;
-    border-radius: 20px;
+    /* display: block; */
 }
