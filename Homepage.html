@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Linking external stylesheets and fonts -->
+  <link rel="stylesheet" href="./login/assets/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+  <!-- Page title -->
+  <title>B&M library</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="butclass">
+      <!-- Button to trigger login popup -->
+      <button type="button" class="btn-popup">Login</button>
+    </div>
+  </header>
+
+  <!-- Glassmorphism-Centered Container -->
+  <div class="glassmorphism-centered">
+    <h1 class="BandM-title">B & M library</h1>
+    <p class="catchy-caption">Explore and Enjoy!!</p>
+  </div>
+
+  <!-- Login and Registration Wrapper -->
+  <div class="wrapper">
+    <!-- Close icon for the wrapper -->
+    <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+    <!-- Login Form -->
+    <div class="form-box login">
+      <h2>Login</h2>
+      <h3 id="ud-error"></h3>
+
+      <!-- Login Form Fields -->
+      <form action="#">
+        <div class="input-box">
+          <!-- Email Input with icon -->
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required id="username">
+          <label>Email</label>
+          <p class="error" id="Username-error">* Email Required!</p>
+        </div>
+
+        <div class="input-box">
+          <!-- Password Input with icon -->
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required id="password">
+          <label>Password</label>
+          <p class="error" id="Password-error">* Password Required!</p>
+        </div>
+
+        <!-- Remember Me Checkbox -->
+        <div class="remeber-forget">
+          <label><input type="checkbox">Remember Me</label>
+        </div>
+
+        <!-- Login Button -->
+        <button type="button" class="btn login-btn">Login</button>
+
+        <!-- Login-Register Link -->
+        <div class="login-register">
+          <p>Don't have an account?</p>
+          <button type="button" class="btn register-link">Sign Up</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Registration Form -->
+    <div class="form-box Register">
+      <h2>Registration</h2>
+      <h3 id="error"></h3>
+
+      <!-- Registration Form Fields -->
+      <form action="#">
+        <div class="input-box">
+          <!-- Username Input with icon -->
+          <span class="icon"><ion-icon name="person"></ion-icon></span>
+          <input type="text" required id="Register-username">
+          <label>Username</label>
+          <p class="error" id="RegisterUser-error">* Username Required!</p>
+        </div>
+
+        <div class="input-box">
+          <!-- Email Input with icon -->
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required id="Register-email">
+          <label>Email</label>
+          <p class="error" id="RegisterEmail-error">* Email Required!</p>
+        </div>
+
+        <div class="input-box">
+          <!-- Password Input with icon -->
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required id="Register-passowrd">
+          <label>Password</label>
+          <p class="error" id="RegisterPass-error">* Password Required!</p>
+        </div>
+
+        <!-- Terms & Conditions Checkbox -->
+        <div class="remeber-forget">
+          <label><input type="checkbox">I agree to the terms & condition</label>
+        </div>
+
+        <!-- Registration Button -->
+        <button type="button" class="btn log signup-btn">Sign Up</button>
+
+        <!-- Login-Register Link -->
+        <div class="login-register">
+          <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript Scripts -->
+  <script src="./login/assets/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
