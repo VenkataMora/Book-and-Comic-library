@@ -9,7 +9,7 @@ This project is a collection of movie and books information. It provides users w
 ## Technologies Used
 - Front-End: HTML, CSS, JavaScript
 - Framework: Bootstrap
-- APIs: TMDB API, Open Library API
+- APIs: TMDB API, Google Books API
 
 ## Directions for further development
 - Implement user reviews and rating feature
