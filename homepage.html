@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B & M Library</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./login/homepageassets/style1.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light bg-gradient">
+        <a class="navbar-brand" href="#" id="BM"> B & M Library </a>
+
+     
+
+        <form class="form-inline my-2 my-lg-0 ml-auto custom-form">
+          <span class="toggle-text off">Light</span>
+          <div class="toggle">
+            <input type="checkbox" id="toggle" class="checkbox" />
+            <label for="toggle" class="label">
+              <div class="ball"></div>
+            </label>
+          </div>
+          <span class="toggle-text off">Dark</span>
+
+          <select id="subjectSelector" class="custom-select">
+            <option value="" >Select a subject</option>
+            <option value="art">Art</option>
+            <option value="history">History</option>
+            <option value="science">Science</option>
+            <option value="fiction">Fiction</option>
+            <option value="Horror">Horror</option>
+            <option value="Thriller">Thriller</option>
+            <option value="technology">Technology</option>
+            <option value="philosophy">Philosophy</option>
+            <option value="mathematics">Mathematics</option>
+          </select>
+
+          <input
+            class="form-control mr-sm-2 custom-input"
+            type="search"
+            placeholder="Search your Favourites"
+            id="searchInput"
+          />
+          
+          <div class="icon-container">
+            <i class="fas fa-book icon blue-icon buttonBooK"></i>
+            <i class="fas fa-film icon gray-icon buttonMovie"></i>
+          </div>
+
+        </form>
+        <i class="fas fa-sign-out-alt icon gray-icon close"></i>
+      </nav>
+    </header>
+
+    <main role="main">
+      <div id="scroll">
+        <div class="row" id="BMContainer"></div>
+      </div>
+    </main>
+
+    <div class="container" id="BMfull"></div>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./login/homepageassets/script.js"></script>
+  </body>
+</html>
