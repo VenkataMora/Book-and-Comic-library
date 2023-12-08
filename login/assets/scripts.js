@@ -184,7 +184,7 @@ function saveUserData(email, username, password) {
         }
       });
   
-      window.location.href = "newpage.html";
+      window.location.href = "homepage.html";
     } else {
       document.getElementById("ud-error").textContent =
         "* Invalid email or password";
