@@ -12,6 +12,13 @@ This project is a collection of movie and books information. It provides users w
 - Front-End: HTML, CSS, JavaScript
 - Framework: Bootstrap
 - APIs: TMDB API, Google Books API
+## Task Contribution:
+- Venkata worked on the login page.
+- Renata and Samirah worked on API, fetching data from APIs, header, nav menu and bootstrap, bootstrap cards
+- Rodiat worked on the remaining body part, APIs and styling website, 
+
+## Demo Vedio:
+![Books   comics library (1)](https://github.com/VenkataMora/Book-and-Movies-library/assets/144748204/14033439-9870-460a-9975-9ad366275db0)
 
 ## Directions for further development
 - Implement user reviews and rating feature
