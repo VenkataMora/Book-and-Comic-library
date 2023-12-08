@@ -24,6 +24,8 @@ This project is a collection of movie and books information. It provides users w
 - Implement user reviews and rating feature
 - Increase performance optimization
 - Implement an advanced search and filter options
+## Live link
+`https://ukvirtfept092-nfv3117.slack.com/archives/C05NKQ3NLRE/p1702064327935459`
 
 ## Challenges faced
 - Difficulties in understanding the functionalities required in an API, and how to use them correctly
