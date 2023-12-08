@@ -25,9 +25,14 @@ This project is a collection of movie and books information. It provides users w
 - Increase performance optimization
 - Implement an advanced search and filter options
 ## Live link:
-```https://ukvirtfept092-nfv3117.slack.com/archives/C05NKQ3NLRE/p1702064327935459```
+```
+https://ukvirtfept092-nfv3117.slack.com/archives/C05NKQ3NLRE/p1702064327935459
+```
 ## Deployment:
-``` git bash  ```
+```
+ git clone https://github.com/VenkataMora/Book-and-Movies-library.git  
+
+```
 
 ## Challenges faced
 - Difficulties in understanding the functionalities required in an API, and how to use them correctly
