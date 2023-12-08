@@ -26,7 +26,7 @@ This project is a collection of movie and books information. It provides users w
 - Implement an advanced search and filter options
 ## Live link:
 ```
-https://ukvirtfept092-nfv3117.slack.com/archives/C05NKQ3NLRE/p1702064327935459
+https://venkatamora.github.io/Book-and-Movies-library/index.html
 ```
 ## Deployment:
 ```
