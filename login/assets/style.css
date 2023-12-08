@@ -252,3 +252,37 @@ h3{
     display: inline-block;
     transition: all .3s ease-in-out;
 }
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    header {
+        right: 0;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .input-box input {
+        padding: 0 15px;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    header {
+        right: -620px; /* Adjust as needed */
+    }
+
+    .wrapper {
+        width: 70%;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+/* Larger screen styles (default) */
+@media only screen and (min-width: 1025px) {
+    /* Add any specific styles for larger screens here */
+}
