@@ -14,18 +14,18 @@
         <a class="nav-link home text-dark" aria-current="page" href="#">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Books</a>
+        <a class="nav-link text-dark navMenuItem "data-action = "displayBooks" href="#">Books</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Movies</a>
+        <a class="nav-link text-dark navMenuItem" data-action = "displayMovies" href="#">Movies</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-dark" href="#">Sign Out</a>
       </li>
       <li class="nav-item">
         <form class="d-flex">
-           <input class="form-control me-2" type="search" placeholder="Search movies" aria-label="Search" id="searchInput">
-           <button class="btn btn-outline-success" type="button" onclick="searchMovies()">Search</button>
+           <input class="form-control me-2" type="search" placeholder="Search movies" autocomplete="off" aria-label="Search" id="searchInput">
+           <button class="btn btn-outline-success" type="button" onclick="retrieveInput('books')">Search</button>
         </form>
       </li>
     </ul>
@@ -36,9 +36,15 @@
 </nav>
   
  <!-- Movie section-->
+<section id="moviesContent" class="content hidden">
   <div class = "popular"></div>
   <div class = "flex-container"></div>
- 
+</section>
+ <!-- Book section-->
+<section id="booksContent" class="content">
+  <div class = "popular-books"></div>
+  <div class = "flex-container2"></div>
+</section>
 
  
   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
