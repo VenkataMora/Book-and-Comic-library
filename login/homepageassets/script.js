@@ -11,7 +11,7 @@ displayMore.style.display = "none";
 const close = document.querySelector(".close");
 close.addEventListener("click",() =>{
 
-window.location.href="login.html";
+window.location.href="index.html";
 
 })
 
