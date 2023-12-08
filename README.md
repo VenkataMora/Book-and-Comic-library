@@ -17,15 +17,17 @@ This project is a collection of movie and books information. It provides users w
 - Renata and Samirah worked on API, fetching data from APIs, header, nav menu and bootstrap, bootstrap cards
 - Rodiat worked on the remaining body part, APIs and styling website, 
 
-## Demo Vedio:
+## Demo Video:
 ![Books   comics library (1)](https://github.com/VenkataMora/Book-and-Movies-library/assets/144748204/14033439-9870-460a-9975-9ad366275db0)
 
 ## Directions for further development
 - Implement user reviews and rating feature
 - Increase performance optimization
 - Implement an advanced search and filter options
-## Live link
-`https://ukvirtfept092-nfv3117.slack.com/archives/C05NKQ3NLRE/p1702064327935459`
+## Live link:
+```https://ukvirtfept092-nfv3117.slack.com/archives/C05NKQ3NLRE/p1702064327935459```
+## Deployment:
+``` git bash  ```
 
 ## Challenges faced
 - Difficulties in understanding the functionalities required in an API, and how to use them correctly
