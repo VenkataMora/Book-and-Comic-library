@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    position: absolute;
+    top: -20px;
+    right: -1220px;
+    width: 100%;
+    padding: 25px 12.5px;
+    background: transparent;
+    z-index: 100;
+}
+.btn-popup{
+    width: 130px;
+    height: 50px;
+    background:transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16PX;
+}
+.btn-popup:hover{
+    background: #251b1b;
+}
+
+
+body {
+    /* background: url(../Images/gentle-transition-colors.jpg) no-repeat; */
+    background: url(../assets/images/library-849797.jpg) no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+     transform: scale(0);
+    transition: transform .5s ease,height .2s ease;
+} 
+.wrapper .form-box.login{
+    transition: transform .18s ease;
+    transform: translateX(0);
+ }
+ .wrapper .form-box.Register{
+     position: absolute;
+     transition: none;
+     transform: translateX(400px);
+ }
+ .wrapper.active{
+     height: 450px;
+ }
+ .wrapper.active .form-box.login{
+     position: absolute;
+     transform: translateX(-400PX);
+ }.wrapper.active .form-box.Register{
+     transition: transform .18s ease;
+     transform: translateX(0);
+ }
+ 
+ .wrapper.active-popup{
+     transform: scale(1);
+ }
+ .wrapper .login{
+    /* display: none; */
+ }
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+.form-box h2{
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom:2px solid #fff;
+    margin: 30px 0;
+}
+.input-box label{
+position: absolute;
+top: 50%;
+left: 5px;
+transform: translateY(-50%);
+font-size: 1em;
+color:#fff;
+pointer-events: none;
+font-weight: 500;
+transition: .5s;
+}
+.input-box  input:focus~label, .input-box input:valid~label{
+    top:-5px;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border:none;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #fff;
+    line-height: 57px;
+}
+.remeber-forget{
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin: -5px 0 15px;
+}
+.remeber-forget label input{
+    accent-color: #162938;
+}
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 1em;
+    color: #333;
+    font-weight: 600;
+}
+
+.login-register p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #999
+}
+
+.login-register p:hover {
+    color: #fff;
+}
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    z-index: 1;
+}
+.login-register a{
+    color: #fff;
+    text-decoration: none;
+}
+.login-register a:hover{
+    text-decoration: underline;
+}
+.error{
+    display: none;
+    text-align: left;
+    margin: 0.4rem;
+    font-size: 1rem;
+    color:#fff;
+    font-weight: 500;
+
+}
+
+
+
+
+.glassmorphism-centered {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 1; /* Ensure the glassmorphism div is on top */
+}
+
+/* Adjust title and caption styles */
+.glassmorphism-centered h1 {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.BandM-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.catchy-caption {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+    color: #fff;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}

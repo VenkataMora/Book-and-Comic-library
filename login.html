@@ -1,0 +1,93 @@
+<!DOCTYPE html/>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./login/assets/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <title>Books & comics library</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="butclass">
+      <button type="button" class="btn-popup">Login</button>
+    </div>
+  </header>
+
+  <div class="glassmorphism-centered">
+    <h1 class="BandM-title">B & M library</h1>
+    <p class="catchy-caption">Explore and Enjoy!!</p>
+</div>
+
+
+  <div class="wrapper">
+    <span class="icon-close"><ion-icon name="close"></ion-icon>
+    </span>
+    <div class="form-box login">
+      <h2>Login</h2>
+      <h3 id="ud-error"></h3>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required id="username">
+          <label >Email</label>
+          <p class="error" id="Username-error">* Email Requried!</p>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required id="password">
+          <label>Password</label>
+          <p class="error" id="Password-error">* Password Requried!</p>
+        </div>
+        <div class="remeber-forget">
+          <label><input type="checkbox">Remeber Me</label>
+        </div>
+        <button type="button" class="btn login-btn ">Login</button>
+        <div class="login-register">
+          <p>Don't have an account?</p>
+          <button type="button" class="btn register-link">Sign Up</button>
+        </div>
+      </form>
+    </div>
+    <div class="form-box Register">
+      <h2>Registration</h2>
+      <h3 id="error"></h3>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="person"></ion-icon></span>
+          <input type="text" required id="Register-username">
+          <label>Username</label>
+          <p class="error" id="RegisterUser-error">* Username Requried!</p>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail"></ion-icon></span>
+          <input type="email" required id="Register-email">
+          <label >Email</label>
+          <p class="error" id="RegisterEmail-error">* Email Requried!</p>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+          <input type="password" required id="Register-passowrd">
+          <label >Password</label>
+          <p class="error" id="RegisterPass-error">* Password Requried!</p>
+          
+        </div>
+        <div class="remeber-forget">
+          <label><input type="checkbox">I agree to the terms & condition</label>
+        </div>
+        <button type="button" class="btn log signup-btn">Sign Up</button>
+        <div class="login-register">
+          <p>Alredy have an account? <a href="#" class="login-link">Login</a></p>
+        </div>
+      </form>
+    </div>  
+  </div>
+  <script src="./login/assets/scripts.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
