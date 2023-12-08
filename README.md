@@ -5,6 +5,8 @@ This project is a collection of movie and books information. It provides users w
 - Movie Search: Users can search for movies by title. The application provides an easy-to-use search functionality that returns relevant results quickly.
 - Book Search: Users can search for books by title. The application provides a comprehensive library of books, ensuring that users can easily find their desired books.
 - Popular books/movies: The application provides personalized popular page based on the world's popularity movies or books.
+- LocalStorage: login form details are saved
+- Light/Dark toggle mode: Users have an option to view the application in light or dark mode.
 
 ## Technologies Used
 - Front-End: HTML, CSS, JavaScript
